@@ -33,7 +33,7 @@ def main():
     st.set_page_config(
     page_title="my-contributions",
     page_icon="👨‍💻",
-)
+    )
 
     # st.title("git showcase-contributions")
     st.markdown("<h1 style='color:#003366;'>git showcase-contributions</h1>", unsafe_allow_html=True)
