@@ -52,7 +52,7 @@ def main():
         **Data Usage Notice:** This application will access and utilize information from your pull requests, issues, and the README files of your repositories. This data will be used to generate contribution summaries and related insights.
         """)
 
-    openai_api_key = os.getenv('OPENAPI_KEY')
+    openai_api_key = st.secrets["OPENAPI_KEY"]
     client = OpenAI(api_key=openai_api_key)
 
 
