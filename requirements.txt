@@ -1,0 +1,4 @@
+docx
+openai
+streamlit
+langchain_community
