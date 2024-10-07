@@ -64,7 +64,7 @@ def main():
     
     col1, _ = st.columns([1.5, 2])
     with col1:
-        expertise = ["Data Science", "Machine Learning", "Artificial Intelligence", "Frontend Development", "Backend Development", "Fullstack Development", "Devops Engineering", "Cloud Engineering", "UI/UX"]  # List of models
+        expertise = ["Data Science", "Machine Learning", "Artificial Intelligence", "Frontend Development", "Backend Development", "Fullstack Development", "Devops Engineering", "Cloud Engineering", "Software Testing", "UI/UX"]  # List of models
         expertise = st.selectbox("Select your expertise", expertise, index=expertise.index("Fullstack Development"))
         st.caption(f"Selected Expertise: {expertise}")
     
