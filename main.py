@@ -96,7 +96,6 @@ def main():
             my_bar = st.progress(percent_complete, text=progress_text)
             my_bar.progress(percent_complete, text="listing down all the repositories you are a part of...")
             repo_list = get_repo_list(access_token=github_access_token)
-            repo_list = []
         
             if len(repo_list) == 0:
                 my_bar.empty()
